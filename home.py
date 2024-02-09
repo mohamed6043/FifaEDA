@@ -7,7 +7,7 @@ st.image('fifa_app\\images\\fifa_title_image.jpg',width=500)
 
 st.markdown("""---""")
 
-df = pd.read_csv('../FIFA_PROJECT/fifa_eda.csv')
+df = pd.read_csv('/fifa_eda.csv')
 
 # print size
 print(df.shape)
