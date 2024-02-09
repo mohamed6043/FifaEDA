@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.header('Fifa Test', divider='rainbow')
-st.image('fifa_app\\images\\fifa_title_image.jpg',width=500)
+st.image('images\\fifa_title_image.jpg',width=500)
 
 st.markdown("""---""")
 
