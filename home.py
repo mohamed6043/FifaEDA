@@ -25,7 +25,7 @@ df.dropna(inplace=True)
 st.dataframe(df.head(), use_container_width=True)
 
 # draw histogram
-dfg = df.sort_values(['Club'], ascending=False).head(10)
+dfg = df.sort_values(df, ascending=False).head(10)
 fig = px.histogram(dfg,x='Club')
 
 
